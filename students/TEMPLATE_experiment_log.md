@@ -1,4 +1,4 @@
-# Experiment Log (Your Name)
+# Experiment Log (Arun Krishnan)
 
 For each experiment you run this semester:
 1. Copy the template block below.
@@ -23,6 +23,32 @@ For each experiment you run this semester:
 ### Reflection:
 (What worked? What didn’t? What would you try next?)
 
+# Experiment Log (Arun Krishnan)
+
+For each experiment you run this semester:
+1. Copy the template block below.
+2. Fill it in.
+3. Add it to the bottom of this file.
+
+---
+
+## Experiment Template
+
+### Run #: 
+### Date:
+### Goal / Question:
+(What are you testing or curious about?)
+
+### Setup:
+(What data, model, hyperparameters, preprocessing did you use?)
+
+### Results:
+(Key metrics: accuracy, precision/recall, confusion matrix, etc.)
+
+### Reflection:
+(What worked? What didn’t? What would you try next?)
+
+--
 
 # Example Experiment Log — Taiwo 
 
