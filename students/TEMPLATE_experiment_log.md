@@ -31,6 +31,62 @@ For each experiment you run this semester:
 3. Add it to the bottom of this file.
 
 ---
+## Experiment Template
+
+### Run 1: 
+### Date:
+### Goal / Question:
+(What are you testing or curious about?)
+Hyperparameters
+### Setup:
+(What data, model, hyperparameters, preprocessing did you use?)
+random forset, max depth.
+### Results:
+(Key metrics: accuracy, precision/recall, confusion matrix, etc.)
+f1 score
+### Reflection:
+(What worked? What didn’t? What would you try next?)
+none: 0.85
+10:0.86
+20:0.87
+# Experiment Log (Arun Krishnan)
+
+For each experiment you run this semester:
+1. Copy the template block below.
+2. Fill it in.
+3. Add it to the bottom of this file.
+
+---
+## Experiment Template
+
+### Run 2: 
+### Date:
+### Goal / Question:
+(What are you testing or curious about?)
+search methods for hyperparameters
+### Setup:
+(What data, model, hyperparameters, preprocessing did you use?)
+Gridsearch randomizedsearch
+### Results:
+(Key metrics: accuracy, precision/recall, confusion matrix, etc.)
+Running GridSearchCV...
+Running RandomizedSearchCV...
+Best params (GridSearch): {'max_depth': 20, 'n_estimators': 100}
+Best score (GridSearch): 0.863
+Best params (RandomizedSearch): {'max_depth': 20, 'min_samples_split': 4, 'n_estimators': 121}
+Best score (RandomizedSearch): 0.864
+### Reflection:
+(What worked? What didn’t? What would you try next?)
+- Which method finished faster? Why?  randomized search cv. it only test a subset of what gridsearch does
+- Did they find similar or different best parameters?  similarbut randomized search was better because it explored one extra parameter most likely
+- When would you choose GridSearchCV vs RandomizedSearchCV in practice?  Grid search when not caring much about efficiency but wanting best results and vice versa.
+# Experiment Log (Arun Krishnan)
+
+For each experiment you run this semester:
+1. Copy the template block below.
+2. Fill it in.
+3. Add it to the bottom of this file.
+---
 
 # Example Experiment Log — Taiwo 
 
