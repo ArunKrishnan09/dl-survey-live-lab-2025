@@ -79,9 +79,10 @@ Best params (RandomizedSearch): {'max_depth': 20, 'min_samples_split': 4, 'n_est
 Best score (RandomizedSearch): 0.864
 ### Reflection:
 (What worked? What didn’t? What would you try next?)
-- Which method finished faster? Why?  randomized search cv. it only test a subset of what gridsearch does
-- Did they find similar or different best parameters?  similarbut randomized search was better because it explored one extra parameter most likely
+- Which method finished faster? Why?  randomized search cv. it only tests randomized values of what gridsearch does, oftentimes being smaller
+- Did they find similar or different best parameters?  similar but randomized search was better because it explored one extra parameter (most likely)
 - When would you choose GridSearchCV vs RandomizedSearchCV in practice?  Grid search when not caring much about efficiency but wanting best results and vice versa.
+
 # Experiment Log (Arun Krishnan)
 
 For each experiment you run this semester:
