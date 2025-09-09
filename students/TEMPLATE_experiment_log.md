@@ -40,7 +40,7 @@ For each experiment you run this semester:
 Hyperparameters
 ### Setup:
 (What data, model, hyperparameters, preprocessing did you use?)
-random forset, max depth.
+random forset n_estimators = 200, min_samples_split = 2, random_state = 42, max depth.
 ### Results:
 (Key metrics: accuracy, precision/recall, confusion matrix, etc.)
 f1 score
