@@ -46,9 +46,11 @@ random forset, max depth.
 f1 score
 ### Reflection:
 (What worked? What didn’t? What would you try next?)
+
 none: 0.85
 10:0.86
 20:0.87
+not much difference between parameters
 # Experiment Log (Arun Krishnan)
 
 For each experiment you run this semester:
